@@ -11,7 +11,7 @@ variable "audit_s3_bucket_name" {
 
 variable "support_iam_role_principal_arn" {
   description = "The ARN of the IAM principal element by which the support role could be assumed."
-  default = "arn:aws:iam::753646501470:user/yulei"
+  default = ""
 }
 
 variable "region" {
